@@ -1,7 +1,7 @@
 # Java Labs
 
 ## Lab.1.1
-###classes:
+### classes:
 * Person
 * PersonTest
 * PersonEx
