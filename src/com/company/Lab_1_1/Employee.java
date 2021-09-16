@@ -1,4 +1,6 @@
-package com.company;
+package com.company.Lab_1_1;
+
+import com.company.Lab_1_1.AbstractPerson;
 
 public final class Employee extends AbstractPerson {
 

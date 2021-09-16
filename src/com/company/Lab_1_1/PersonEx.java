@@ -1,4 +1,6 @@
-package com.company;
+package com.company.Lab_1_1;
+
+import com.company.Lab_1_1.IllegalNameException;
 
 public class PersonEx {
     private int age = 0;

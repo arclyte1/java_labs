@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lab_1_1;
 
 public class IllegalNameException extends Exception {
 

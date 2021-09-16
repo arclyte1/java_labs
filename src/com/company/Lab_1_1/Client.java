@@ -1,11 +1,13 @@
-package com.company;
+package com.company.Lab_1_1;
+
+import com.company.Lab_1_1.AbstractPerson;
 
 public class Client extends AbstractPerson {
 
     private String service;
-    private float price;
+    private double price;
 
-    public Client(String name, String service, float price) {
+    public Client(String name, String service, double price) {
         super(name);
         this.service = service;
         this.price = price;
@@ -20,7 +22,7 @@ public class Client extends AbstractPerson {
         return service;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 }

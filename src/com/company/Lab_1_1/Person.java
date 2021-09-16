@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lab_1_1;
 
 public class Person {
     private int age = 0;
@@ -7,11 +7,11 @@ public class Person {
     static int MAX_AGE = 200;
     static double MAX_HEIGHT = 3.2;
 
-    public boolean isValidAge() {
+    private boolean isValidAge() {
         return this.age <= MAX_AGE && this.age != 0;
     }
 
-    public boolean isValidHeight() {
+    private boolean isValidHeight() {
         return this.height <= MAX_HEIGHT && this.height != 0;
     }
 
