@@ -14,3 +14,17 @@
 * HumanInterface
 * AbstractPerson
 * Main
+
+
+## Lab.1.3
+### Task 1 classes:
+* Ball
+* BallTest
+* Book
+* BookTest
+* Main
+
+### Task 2 classes:
+* Author
+* TestAuthor
+* Main
