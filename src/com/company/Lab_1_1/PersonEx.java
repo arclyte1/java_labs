@@ -36,7 +36,7 @@ public class PersonEx {
     }
 
     public void info() {
-        System.out.printf("Имя: %s\nРост: %f\nВозраст: %d\nГендер: %s", this.getName(), this.getHeight(), this.getAge(), this.gender.toString());
+        System.out.printf("Имя: %s\nРост: %f\nВозраст: %d\nГендер: %s\n", this.getName(), this.getHeight(), this.getAge(), this.gender.toString());
     }
 
     public int getAge() {

@@ -57,7 +57,7 @@ public class PersonExTest {
         catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
-        System.out.printf("Имя: %s\nРост: %f\nВозраст: %d\nГендер: %s", person.getName(), person.getHeight(), person.getAge(), person.gender.toString());
+        System.out.printf("Имя: %s\nРост: %f\nВозраст: %d\nГендер: %s\n", person.getName(), person.getHeight(), person.getAge(), person.gender.toString());
         person.info();
     }
 

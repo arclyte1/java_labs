@@ -20,7 +20,7 @@ public class Person {
     }
 
     public void info() {
-        System.out.printf("Имя: %s\nРост: %f\nВозраст: %d", this.getName(), this.getHeight(), this.getAge());
+        System.out.printf("Имя: %s\nРост: %f\nВозраст: %d\n", this.getName(), this.getHeight(), this.getAge());
     }
 
     public int getAge() {
