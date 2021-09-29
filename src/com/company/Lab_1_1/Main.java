@@ -13,6 +13,8 @@ public class Main {
         clientTest.test();
         EmployeeTest employeeTest = new EmployeeTest();
         employeeTest.test();
+
+        new MainFrame();
     }
 
 }
