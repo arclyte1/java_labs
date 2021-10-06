@@ -28,7 +28,7 @@ public class MainFrame extends JFrame {
 
         add(show);
         show.addActionListener(e -> {
-            Employee employee = new Employee(name.getText(), Integer.parseInt(age.getText()), (Employee.Position)position.getSelectedItem());
+            Employee employee = new Employee(new MyString(name.getText().toCharArray()), Integer.parseInt(age.getText()), (Employee.Position)position.getSelectedItem());
             new EmployeeInfoFrame(employee);
         });
 

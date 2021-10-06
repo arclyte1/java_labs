@@ -1,9 +1,9 @@
 package com.company.Lab_1_1;
 
 public abstract class AbstractPerson implements HumanInterface {
-    protected String name;
+    protected MyString name;
 
-    public AbstractPerson(String name) {
+    public AbstractPerson(MyString name) {
         this.name = name;
     }
 
@@ -11,7 +11,7 @@ public abstract class AbstractPerson implements HumanInterface {
     public abstract String think();
 
     @Override
-    public String getName() {
+    public MyString getName() {
         return name;
     }
 }

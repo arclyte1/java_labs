@@ -11,7 +11,7 @@ public final class Employee extends AbstractPerson {
         OTHER
     }
 
-    public Employee(String name, int age, Position position) {
+    public Employee(MyString name, int age, Position position) {
         super(name);
         this.age = age;
         this.position = position;

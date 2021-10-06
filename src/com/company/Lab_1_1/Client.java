@@ -7,7 +7,7 @@ public class Client extends AbstractPerson {
     private String service;
     private double price;
 
-    public Client(String name, String service, double price) {
+    public Client(MyString name, String service, double price) {
         super(name);
         this.service = service;
         this.price = price;
