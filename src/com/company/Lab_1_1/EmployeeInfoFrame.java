@@ -9,7 +9,7 @@ import static java.awt.Font.BOLD;
 public class EmployeeInfoFrame extends JFrame {
 
     public EmployeeInfoFrame(Employee employee) throws HeadlessException {
-        super(employee.getName().toString());
+        super(employee.getName());
         setLayout(new FlowLayout(FlowLayout.LEFT, 50, 10));
         setResizable(false);
         setSize(200, 130);

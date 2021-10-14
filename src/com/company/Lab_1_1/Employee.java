@@ -6,15 +6,22 @@ public final class Employee extends AbstractPerson {
 
     private int age;
     private Position position;
+    private String department;
+    private String phone;
+    private PersonEx.Gender gender;
+
     public enum Position {
         SELLER,
         OTHER
     }
 
-    public Employee(MyString name, int age, Position position) {
+    public Employee(String name, int age, Position position, String department, String phone, PersonEx.Gender gender) {
         super(name);
         this.age = age;
         this.position = position;
+        this.department = department;
+        this.phone = phone;
+        this.gender = gender;
     }
 
     @Override
@@ -28,6 +35,18 @@ public final class Employee extends AbstractPerson {
 
     public Position getPosition() {
         return position;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public PersonEx.Gender getGender() {
+        return gender;
     }
 
     @Override

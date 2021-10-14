@@ -2,5 +2,5 @@ package com.company.Lab_1_1;
 
 public interface HumanInterface {
     public String think();
-    public MyString getName();
+    public String getName();
 }
