@@ -4,6 +4,7 @@ import com.company.Lab_1_1.AbstractPerson;
 
 public final class Employee extends AbstractPerson {
 
+    int id;
     private int age;
     private Position position;
     private String department;
@@ -27,6 +28,10 @@ public final class Employee extends AbstractPerson {
     @Override
     public String think() {
         return "Я работник";
+    }
+
+    public int getId() {
+        return id;
     }
 
     public int getAge() {
