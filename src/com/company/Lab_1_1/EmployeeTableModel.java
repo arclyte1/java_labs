@@ -46,5 +46,6 @@ public class EmployeeTableModel extends AbstractTableModel {
             case 5: return employee.getPosition();
             case 6: return employee.getGender();
         }
+        return null;
     }
 }
