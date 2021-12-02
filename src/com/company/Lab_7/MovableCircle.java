@@ -9,12 +9,22 @@ public class MovableCircle implements Movable{
         this.center = new MovablePoint(x, y, xSpeed, ySpeed);
     }
 
+    private MovableCircle(MovablePoint center, int radius) {
+        this.radius = radius;
+        this.center = center;
+    }
+
     @Override
     public String toString() {
         return "MovableCircle{" +
                 "radius=" + radius +
                 ", center=" + center.toString() +
                 '}';
+    }
+
+    @Override
+    public Object clone() {
+        return new MovableCircle(center, radius);
     }
 
     @Override

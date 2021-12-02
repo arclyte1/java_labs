@@ -24,6 +24,11 @@ public class MovablePoint implements Movable{
     }
 
     @Override
+    public Object clone() {
+        return new MovablePoint(x, y, xSpeed, ySpeed);
+    }
+
+    @Override
     public void moveUp() {
         xSpeed = 0;
         ySpeed = 1;
